@@ -1,0 +1,10 @@
+li{
+    white-space: nowrap;
+    margin-left:10px;
+    font-size:14px;
+    color:#797979;
+    min-width:fit-content;
+}
+li:hover{
+    color:#ff4a64;
+}

@@ -1,0 +1,32 @@
+<div class="mt-1">
+  <ng-container>
+    <div class="dropdown">
+        <p class="dropdown-toggle d-none d-lg-block x" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" (click)="toggle()">
+          Categories    
+        </p>
+
+        <div class="d-md-none" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" (click)="toggle()">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+        </div>
+
+
+     
+        <ul class="dropdown-menu" style="width: 100px;margin-right: 10px;transform: translateX(-25%);" aria-labelledby="dropdownMenuButton2" [ngClass]="{ 'show': isDropdown }">
+          <li><a class="dropdown-item active" href="#">Lifestyle</a></li>
+          <li><a class="dropdown-item" href="#">Business</a></li>
+          <li><a class="dropdown-item" href="#">Health</a></li>
+          <li><a class="dropdown-item" href="#">Food</a></li>
+          <li><a class="dropdown-item" href="#">Love and Relationship</a></li>
+          <li><a class="dropdown-item" href="#">Tech</a></li>
+          <li><a class="dropdown-item" href="#">Entertainment</a></li>
+          <li><a class="dropdown-item" href="#">Shopping</a></li>
+          <li><a class="dropdown-item" href="#">Home</a></li>
+
+        </ul>
+      </div>
+  </ng-container>
+</div>
